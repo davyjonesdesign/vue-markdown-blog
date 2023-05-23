@@ -2,8 +2,19 @@
   <div class="blog">
     <router-view />
     <router-link to="/" tag="a" class="back">&laquo; Back</router-link>
+    <UtterancesComments />
   </div>
 </template>
+<script>
+import UtterancesComments from '@/components/UtterancesComments.vue';
+
+export default {
+  components: {
+    UtterancesComments,
+  },
+};
+</script>
+
 <style lang="scss" scoped>
 .blog {
   max-width: 50vw;
