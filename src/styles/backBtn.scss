@@ -1,0 +1,38 @@
+.back-link {
+    margin: 0 0 4px;
+    display: flex;
+    align-items: center;
+    color: $heavy-op;
+    transition: $transition;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 7px 14px 6px 10px;
+    border: 1px solid $outline;
+    background: $menuBack;
+    border-radius: 5px;
+  }
+  .back-link svg {
+    fill: $heavy-op;
+    transform: rotate(-90deg);
+    width: 18px;
+    transition: $transition;
+    padding: 5px 7px;
+    margin-right: 3px;
+  }
+  .back-link:hover {
+    transform: translate(-3px, -2px);
+    transition: $transition-fastest;
+    color: $text;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px $menuBack;
+    border-color: $heavy;
+    & svg {
+      transform: translate(-3px, 0) rotate(-90deg) scale(1.05);
+      transition: $transition-fastest;
+      fill: $text;
+    }
+  }
