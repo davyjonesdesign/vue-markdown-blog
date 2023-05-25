@@ -68,7 +68,8 @@ img {
   height: 100%;
 }
 .img-wrapper {
-  min-width: 150px;
+  max-width: 150px;
+  max-height: 200px;
   overflow: hidden;
 }
 
@@ -114,7 +115,7 @@ p {
 }
 
 .group {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   z-index: 100;
   & h2 {
     position: sticky;
