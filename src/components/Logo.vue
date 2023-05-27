@@ -43,7 +43,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background: $menuBack;
+  background: $text-dark;
   height: 100vh;
   // width: 80px;
 }
@@ -58,11 +58,12 @@
   z-index: 10000;
   height: 100%;
   width: 60px;
-  border-right: 1px solid $outline;
+  border-right: 2px solid $blue-dark;
+  text-decoration: none;
   transition: $transition;
   z-index: 1000;
   & svg {
-    fill: $text;
+    fill: $blue-light-2;
     width: 32px;
     margin-bottom: 50px;
     transition: $transition;
@@ -70,22 +71,22 @@
   } & .logo-text {
     transform: rotate(90deg);
     transition: $transition;
-    color: $text;
+    color: $blue-light-2;
     margin: 0;
     font-weight: 700;
   }
 }
 .logo:hover {
-  border-color: $heavy;
+  border-color: $blue-light;
+  background: $text-dark;
   & svg {
-    fill: $heavy-op;
+    fill: $text-light;
     transition: $transition-faster;
     transform: rotate(360deg);
   }
   & .logo-text {
     transition: $transition-faster;
-    color: $heavy-op;
-    text-decoration: underline;
+    color: $text-light;
   }
 }
 @import '@/styles/backBtn.scss';

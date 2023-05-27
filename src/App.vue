@@ -18,8 +18,8 @@ export default {
 <style lang="scss">
 @import '@/styles/main.scss';
 html {
-  background: $off;
   margin: 0;
+  background: $blue-dark-2;
 }
 body {
   margin: 0;
@@ -28,7 +28,7 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $text;
+  color: $text-light;
   letter-spacing: 0;
   font-family: "Raleway", sans-serif;
   max-width: 100vw;
@@ -40,7 +40,7 @@ ul,
 ol,
 li {
   font-family: "Lato", sans-serif;
-  color: $text;
+  color: $text-light;
 }
 h1 {
   font-weight: 900;
@@ -86,7 +86,7 @@ p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: $text;
+  color: $text-light;
   max-width: 600px;
 }
 a {
@@ -95,7 +95,10 @@ a {
   letter-spacing: 0.25px;
   font-family: "Lato", sans-serif;
   text-decoration: none;
-  color: $heavy-op;
+  color: $blue-light-2;
+}
+a:hover {
+  text-decoration: underline;
 }
 input,
 label,

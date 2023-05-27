@@ -1,9 +1,16 @@
 {
   "capstone": [
     {
-      "id": "capstone-getting-started",
+      "id": "getting-started",
       "date": "May 23, 2023",
       "title": "Capstone: Getting Started",
+      "description": "I gather and organize existing assets as I get started with my Capstone project for MCAD's MAGWD program.",
+      "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": "week-1",
+      "date": "May 23, 2023",
+      "title": "Capstone: Week 1",
       "description": "I gather and organize existing assets as I get started with my Capstone project for MCAD's MAGWD program.",
       "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
     }

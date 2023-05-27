@@ -31,37 +31,21 @@ export default {
   // align-items: center;
   // padding-bottom: 3rem;
 
-  .back {
-    background-color: $light;
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    color: $text;
-    text-decoration: none;
-    padding: 10px 15px;
-    border: 1px solid $heavy;
-    border-radius: 5px;
-    transition: all .3s ease;
-    &:hover {
-      background-color: transparent;
-      color: $heavy-op;
-    }
-  }
-  /deep/ {
+ /deep/ {
     h1 {
       font-size: 3rem;
       margin-bottom: .2rem;
-      color: $heavy;
+      color: $blue-light-2;
     }
     h4 {
       margin-bottom: 3rem;
-      color: $sub-text;
+      color: $blue-light;
     }
     pre {
       overflow-x: auto;
-      background-color: $menuBack;
-      border: 1px solid $outline;
-      color: $text;
+      background-color: $text-dark;
+      border: 2px solid $blue-dark;
+      color: $blue-light-2;
       border-radius: .3rem;
       padding: 1rem;
     }

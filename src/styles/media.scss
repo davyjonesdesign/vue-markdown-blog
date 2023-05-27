@@ -37,8 +37,6 @@
         top: auto;
         bottom: 0;
         height: 60px;
-        border-bottom: 1px solid $outline;
-        background: #000;
     }
     .logo {
         height: auto;
@@ -47,27 +45,43 @@
         height: 60px;
         padding: 0 10px;
         border-right: none;
-        min-width: 140px;
+        border-top: 2px solid $blue-dark;
+        min-width: 100%;
         margin: 0;
+        box-shadow: -3px 0 2px $text-dark;
         & svg {
-            padding: 0 0 0 10px;
-            min-width: 18px;
-            margin: 0;
+            margin: 0 0 0 15px;
+            max-width: 18px;
+            padding: 0;
         } & .logo-text {
             margin: 0 0 0 15px;
             font-size: 1rem;
             transform: rotate(0deg);
         }
     }
+    .logo:hover {
+        border-color: $blue-light;
+        background: $text-dark;
+        text-decoration: underline;
+        & svg {
+          fill: $text-light;
+          transition: $transition-faster;
+          transform: rotate(360deg);
+        }
+        & .logo-text {
+          transition: $transition-faster;
+          color: $text-light;
+        }
+      }
     
 
     // back button
     .back-link {
         z-index: 1000;
         top: auto;
-        bottom: 5px
+        bottom: 3px;
         // font-size: 1rem;
-        // padding: 2px 9px 1px 5px;
+        padding: 4px 12px 3px 8px;
     }
 }
 

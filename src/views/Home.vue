@@ -6,7 +6,7 @@
     </div>
     <div class="sections">
       <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
-        <h2 class="center">{{section}}</h2>
+        <h5 class="center">{{section}}</h5>
         <div class="section" v-for="entry in entries[section]" :key="entry.id">
           <div class="entry" @click="$router.push({name: entry.id}); scrollToTop();">
             <div class="img-wrapper">
@@ -54,12 +54,13 @@ export default {
   margin: 0;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/davy-jones-locker.jpg');
   background-size: cover;
-  border-bottom: 1px solid $outline;
-  color: $text;
+  background: $text-dark;
+  color: $blue-light;
   position: sticky;
   top: 0;
   & p {
     margin: auto;
+    color: $blue-light-2;
   }
 }
 img {
@@ -73,14 +74,8 @@ img {
   overflow: hidden;
 }
 
-h2 {
-  color: $sub-text;
-  // text-transform: capitalize;
-  margin-bottom: 2rem;
-}
-
 h3 {
-  color: $heavy;
+  color: $blue-light;
   margin-bottom: 0;
   cursor: pointer;
   &:hover {
@@ -88,7 +83,7 @@ h3 {
   }
 }
 .subtitle {
-  color: $sub-text;
+  color: $blue-light-2;
   font-size: .98rem;
   margin: 5px 0 15px;
   font-weight: normal;
@@ -102,47 +97,60 @@ p {
 .sections {
   width: 100%;
   margin: 0 auto;
-  padding-top: 4rem;
-  background: $off;
+  // padding-top: 4rem;
+  background: $text-dark;
+  border-top: 2px solid $blue-dark;
   z-index: 10;
-}
-
-.section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 3rem;
 }
 
 .group {
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
   z-index: 100;
-  & h2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  & h5 {
+    display: inline-block;
+
+    color: $blue-light-3;
+    // width: auto;
+    padding: 10px 6px;
     position: sticky;
     top: 0;
-    padding: 20px 0 18px;
-    background: $off;
-    margin: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 1rem;
+    background: $blue-dark;
+    min-width: 200px;
+    margin: 30px 0 0;
   }
 }
 .entry {
-  background: $menuBack;
+  background: $blue-dark-2;
   max-width: 60vw;
-  border-radius: $border-radius;
+  border-radius: 0;
+  margin: -1px 0 -1px;
   transition: $transition;
   overflow: hidden;
   display: flex;
-  border: 1px solid $outline;
+  border: 2px solid $blue-dark;
   cursor: pointer;
   &:hover {
-    transform: translate(-3px, -3px);
+    transform: translate(-4px, -5px);
     transition: $transition-fastest;
-    box-shadow: 3px 3px 2px $menuBack;
-    border-color: $heavy;
+    box-shadow: 4px 5px 2px $text-dark;
+    background: $text-dark;
+    border-color: $blue-light;
+    border-radius: $border-radius;
   } &:hover h3 {
     text-decoration: underline;
     transition: $transition-fastest;
-    color: $text;
+    color: $text-light;
+  } &:hover .subtitle {
+    color: $blue-light-2;
   }
 }
 .entry-content {
