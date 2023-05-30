@@ -1,0 +1,36 @@
+<template>
+    <button class="bounce arrow-down" @click="scrollToElement('#sections')">
+      <svg
+        id="a"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 23.17157 13.94712"
+      >
+        <path
+          d="M3.11289,13.655L11.58579,5.20057l8.47289,8.45443c.39065,.3898,1.02322,.38945,1.41344-.00077l1.40656-1.40656c.39052-.39052,.39052-1.02369,0-1.41421L12.37009,.32487c-.43316-.43316-1.13545-.43316-1.56861,0L.29289,10.83346c-.39052,.39052-.39052,1.02369,0,1.41421l1.40656,1.40656c.39022,.39022,1.02279,.39057,1.41344,.00077Z"
+        />
+      </svg>
+    </button>
+</template>
+<script>
+export default {
+    name: "DownArrow",
+    methods: {
+        scrollToElement(id) {
+            // takes input id with hash
+            // eg. #cafe-menu
+            const el = document.querySelector(id);
+            el &&
+                el.scrollIntoView({
+                behavior: "smooth",
+                block: "nearest",
+                inline: "nearest",
+                });
+        },
+    }
+}
+</script>
+
+<style lang="scss" scoped>
+@import "@/styles/downBtn.scss";
+
+</style>

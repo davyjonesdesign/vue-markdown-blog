@@ -33,13 +33,20 @@ export default {
 
  /deep/ {
     h1 {
+      font-family: "Merriweather";
+      color: $blue-light;
       font-size: 3rem;
-      margin-bottom: .2rem;
-      color: $blue-light-2;
+      font-weight: 500;
+      text-transform: capitalize;
+      letter-spacing: 3px;
+      line-height: 4rem;
     }
     h4 {
       margin-bottom: 3rem;
-      color: $blue-light;
+      font-weight: 700;
+      letter-spacing: 6px;
+      font-weight: 900;
+      color: $blue-dark;
     }
     pre {
       overflow-x: auto;
@@ -48,6 +55,9 @@ export default {
       color: $blue-light-2;
       border-radius: .3rem;
       padding: 1rem;
+    }
+    iframe {
+      
     }
     img {
       max-width: 100%;

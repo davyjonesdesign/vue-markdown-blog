@@ -45,10 +45,8 @@
   top: 0;
   background: $text-dark;
   height: 100vh;
-  // width: 80px;
 }
 .logo {
-  // transform:;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,23 +55,26 @@
   margin: 0;
   z-index: 10000;
   height: 100%;
-  width: 60px;
-  border-right: 2px solid $blue-dark;
+  width: 45px;
+  border-right: 1px solid $blue-dark;
   text-decoration: none;
   transition: $transition;
   z-index: 1000;
   & svg {
     fill: $blue-light-2;
-    width: 32px;
-    margin-bottom: 50px;
+    width: 24px;
     transition: $transition;
     padding: 0 10px;
   } & .logo-text {
-    transform: rotate(90deg);
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    left: 54px;
+    z-index: 1;
     transition: $transition;
     color: $blue-light-2;
     margin: 0;
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 .logo:hover {
@@ -85,7 +86,9 @@
     transform: rotate(360deg);
   }
   & .logo-text {
-    transition: $transition-faster;
+    visibility: visible;
+    opacity: 1;
+    transition: $transition;
     color: $text-light;
   }
 }

@@ -4,14 +4,17 @@
     <div>
       <router-view/>
     </div>
+    <Footer />
   </div>
 </template>
 <script>
 import Logo from '@/components/Logo.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   components: {
     Logo,
+    Footer,
   },
 }
 </script>
@@ -19,7 +22,7 @@ export default {
 @import '@/styles/main.scss';
 html {
   margin: 0;
-  background: $blue-dark-2;
+  background: $blue-dark-3;
 }
 body {
   margin: 0;
@@ -28,10 +31,10 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $text-light;
   letter-spacing: 0;
   font-family: "Raleway", sans-serif;
   max-width: 100vw;
+  color: $text-light;
   margin: 0 auto;
 }
 p,
@@ -40,7 +43,6 @@ ul,
 ol,
 li {
   font-family: "Lato", sans-serif;
-  color: $text-light;
 }
 h1 {
   font-weight: 900;
@@ -86,7 +88,7 @@ p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: $text-light;
+  color: $blue-light-3;
   max-width: 600px;
 }
 a {
@@ -118,7 +120,7 @@ li {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 @import '@/styles/media.scss';
 </style>
