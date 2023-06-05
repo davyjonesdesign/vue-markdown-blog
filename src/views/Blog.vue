@@ -2,9 +2,8 @@
   <div class="page">
     <div class="blog">
       <router-view />
-      <!-- <router-link to="/" tag="a" class="back">&laquo; Back</router-link> -->
-      <BackButton class="back-btn" />
       <UtterancesComments  />
+      <BackButton class="back-btn" />
     </div>
   </div>
 </template>
@@ -24,11 +23,11 @@ export default {
 @import '@/styles/main.scss';
 
 .blog {
-  max-width: 50vw;
-  margin: 10rem auto;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
+  max-width: 60vw;
+  margin: 10rem auto 40px;
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-end;
   // padding-bottom: 3rem;
 
  /deep/ {
@@ -56,18 +55,13 @@ export default {
       border-radius: .3rem;
       padding: 1rem;
     }
-    iframe {
-      
-    }
     img {
       max-width: 100%;
     }
   }
 }
 .back-btn {
-  position: fixed;
-  top: 8px;
-  right: 10px;
+  margin-bottom: 10rem;
 }
 
 @import '@/styles/media.scss';

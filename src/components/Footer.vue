@@ -1,7 +1,7 @@
 <template>
     <div class="footwrap">
-        <p>Davy Jones Design</p>
-        <p>© 2023, dmjones.me</p>
+        <a href="http://davyjones.me/">Davy Jones Design</a>
+        <p>© 2023, davyjones.me</p>
     </div>
 </template>
 
@@ -23,7 +23,14 @@
         text-align: center;
         height: 10px;
         color: $blue-light-2;
-    }
+    } & a {
+        padding-top: 3px;
+        text-decoration: underline;
+        font-weight: 500;
+        color: $blue-light;
+    } & a:hover {
+            color: $blue-light-2;
+        }
 }
 @import '@/styles/media.scss';
 

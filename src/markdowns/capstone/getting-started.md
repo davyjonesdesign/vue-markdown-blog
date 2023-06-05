@@ -18,7 +18,7 @@ I am dedicated to developing an innovative research tool for biblical scholars a
     <iframe style="" class="responsive-iframe" scrolling="no" width="100%" height= "56.25%" onload="resizeIframe(this)" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9UNhKPJ3i2HINWU4VveiME%2FCaptsone-'23%3Ftype%3Ddesign%26node-id%3D1-2%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2&hide-ui=1" allowfullscreen></iframe>
 </div>
 <p align = "center" class="caption">
-Fig.1 - 4K Mountains Wallpaper
+Project Brief Presentation Deck
 </p>
 
 Join me on this exciting journey of creating an invaluable research tool that revolutionizes biblical scholarship, promotes critical thinking, and facilitates a deeper understanding of the rich historical and cultural tapestry of the Bible.

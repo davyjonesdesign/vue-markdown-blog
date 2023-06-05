@@ -18,7 +18,8 @@
 
     // blog
     .blog {
-        max-width: 80vw;
+        max-width: 90vw;
+        margin-top: 70px;
     }
     .entry {
         max-width: 80vw;
@@ -34,8 +35,8 @@
         justify-content: center;
         padding: 0px 0;
         width: 100%;
-        top: auto;
-        bottom: 0;
+        top: 0;
+        // bottom: 0;
         height: 50px;
     }
     .logo {
@@ -43,23 +44,25 @@
         flex-direction: row;
         justify-content: flex-start;
         height: 50px;
-        padding: 0 10px;
+        padding: 0;
         border-right: none;
-        border-top: 1px solid $blue-dark;
+        border-top: none;
+        border-bottom: 1px solid $blue-dark;
         min-width: 100%;
         margin: 0;
         box-shadow: -3px 0 2px $text-dark;
         & svg {
-            margin: 0 0 0 10px;
+            margin: 0 0 0 5vw;
             max-width: 18px;
             padding: 0;
         } & .logo-text {
+            position: relative;
             visibility: visible;
             opacity: 1;
-            margin: 0 0 3px 0;
+            margin: 0 0 0 14px;
             font-size: 1rem;
             transform: rotate(0deg);
-            left: 45px;
+            left: 0px;
         }
     }
     .logo:hover {
@@ -75,17 +78,11 @@
           transition: $transition-faster;
           color: $text-light;
         }
-      }
-    
-
-    // back button
+    }
     .back-link {
+        top: 3px;
+        padding: 2px 12px 4px 5px;
         z-index: 1000;
-        top: auto;
-        bottom: 1px;
-        right: 5px;
-        // font-size: 1rem;
-        padding: 4px 12px 3px 8px;
     }
 }
 

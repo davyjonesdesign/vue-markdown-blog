@@ -1,7 +1,7 @@
 <template>
   <div class="logo-wrap">
     <div class="logo-wrapper">
-      <a href="https://davyjones.me/" class="logo">
+      <router-link to="/" class="logo">
         <svg
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +31,8 @@
             />
           </g>
         </svg>
-        <p class="logo-text">davyjones.me</p>
-      </a>
+        <p class="logo-text">Davy Jones' Locker</p>
+      </router-link>
     </div>
   </div>
 </template>
@@ -74,7 +74,7 @@
     transition: $transition;
     color: $blue-light-2;
     margin: 0;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 .logo:hover {
