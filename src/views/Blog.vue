@@ -27,6 +27,7 @@ export default {
   margin: 10rem auto 40px;
   display: flex;
   flex-direction: column;
+  max-width: 600px;
   // align-items: flex-end;
   // padding-bottom: 3rem;
 
