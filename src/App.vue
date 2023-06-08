@@ -47,7 +47,7 @@ li {
 h1 {
   font-weight: 900;
   font-size: 4rem;
-  margin-bottom: 20px;
+  margin: 20px 0;
   // letter-spacing: 2px;
   line-height: 3.5rem;
 }
@@ -97,7 +97,7 @@ a {
   letter-spacing: 0.25px;
   font-family: "Lato", sans-serif;
   text-decoration: none;
-  color: $blue-light-2;
+  color: $blue-light;
 }
 a:hover {
   text-decoration: underline;
@@ -122,5 +122,7 @@ li {
   align-content: center;
   margin-left: 40px;
 }
+
 @import '@/styles/media.scss';
+@import '@/styles/blog.scss';
 </style>

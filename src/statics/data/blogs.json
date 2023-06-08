@@ -1,11 +1,12 @@
 {
   "capstone": [
     {
-      "id": "getting-started",
-      "date": "May 23, 2023",
-      "title": "Capstone: Getting Started",
-      "description": "I gather and organize existing assets as I get started with my Capstone project for MCAD's MAGWD program.",
-      "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+      "id": "project-brief",
+      "date": "June 8, 2023",
+      "title": "Enhancing Biblical Study: A Modern Research Tool for Exploring Scripture",
+      "description": "My preliminary presentation that provides details about the vision and expectations of the project.",
+      "image": "https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk1/jerusalem.jpg",
+      "week": "1"
     }
   ]
 }

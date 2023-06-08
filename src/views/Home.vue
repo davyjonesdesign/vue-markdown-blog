@@ -14,12 +14,15 @@
               <img :src="entry.image" :alt="entry.title"/>
             </div>
             <div class="entry-content">
+              
               <h3>
               {{entry.title}}
               </h3>
+              <div class="entry-sub">
+                <h6 class="subtitle">{{entry.date}}</h6>
+                <h6 class="subtitle">Week {{entry.week}}</h6>
+              </div>
               <p>{{entry.description}}</p>
-              <h6 class="subtitle">{{entry.date}}</h6>
-              
             </div>
           </div>
         </div>
@@ -88,7 +91,7 @@ export default {
 img {
   display: block;
   margin: 0 auto;
-  height: 250px;
+  height: 300px;
   // max-height: 300px;
 }
 .img-wrapper {
@@ -107,10 +110,14 @@ h3 {
   line-height: 2rem;
 }
 .subtitle {
-  color: $blue-dark;
+  color: $blue-dark-alt;
   font-size: .85rem;
   font-weight: 900;
-  margin: 15px 0 0;
+  padding: 8px 15px 5px;
+  border-radius: 3px;
+  background: $blue-dark-3;
+  border: 1px solid $blue-dark-2;
+  margin: 5px 10px 10px 0;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -191,7 +198,11 @@ p {
   & p {
     margin: 0 0 20px;
   }
-
+  & .entry-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 }
 .back-link {
   display: none;

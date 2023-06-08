@@ -41,7 +41,6 @@ export default {
       line-height: 4rem;
     }
     h4 {
-      margin-bottom: 3rem;
       font-weight: 700;
       letter-spacing: 6px;
       font-weight: 900;
