@@ -34,18 +34,12 @@ export default {
  /deep/ {
     h1 {
       font-family: "Merriweather";
-      color: $blue-light;
-      font-size: 3rem;
+      color: $blue-light-3;
+      font-size: 2.25rem;
       font-weight: 500;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       letter-spacing: 3px;
-      line-height: 4rem;
-    }
-    h4 {
-      font-weight: 700;
-      letter-spacing: 6px;
-      font-weight: 900;
-      color: $blue-dark;
+      line-height: 3rem;
     }
     pre {
       overflow-x: auto;

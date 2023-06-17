@@ -1,22 +1,32 @@
 .blog {
     & h2 {
-        margin: 50px auto 15px;
+        margin: 15px auto 25px;
         letter-spacing: 5px;
-        line-height: 2.25rem;
+        line-height: 2.5rem;
         color: $blue-dark-alt;
     } 
     & h3 {
         padding: 60px 0 0 0;
-        margin: 60px 0 20px;
+        margin: 60px 0 30px;
         color: $blue-dark-alt;
-        border-top: 1px solid $blue-dark;
+        border-top: 1px solid $blue-dark-1;
     }
     & h4 {
         margin: 25px 0 10px;
+        font-size: .75rem;
+        letter-spacing: 3px;
+        color: $blue-dark;
+        margin: 60px 0 20px;
+        font-weight: 700;
+        background: $text-dark;
+        padding: 10px 20px;
+        border: 1px solid $blue-dark-1;
+        text-align: center;
     }
     & h5 {
-        margin: 5px 0 10px;
-        color: $blue-light-3;
+        font-size: .875rem;
+        margin: 0 0 30px;
+        color: $blue-dark;
     }
     & figure {
         max-width: 600px;
@@ -27,6 +37,7 @@
         border-radius: 10px;
     }
     & ul, ol {
+        line-height: 1.675rem;
         padding: 0 0 0 20px;
         max-width: 600px;
     }

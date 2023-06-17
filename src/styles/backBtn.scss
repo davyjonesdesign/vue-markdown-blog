@@ -2,7 +2,7 @@
     margin: 0 0 4px;
     display: flex;
     align-items: center;
-    color: $blue-light-2;
+    color: $blue-light;
     transition: $transition;
     background: none;
     border: none;
@@ -21,7 +21,7 @@
     right: 2vw;
   }
   .back-link svg {
-    fill: $blue-light-2;
+    fill: $blue-light;
     transform: rotate(-90deg);
     width: 18px;
     transition: $transition;

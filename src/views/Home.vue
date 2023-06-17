@@ -14,15 +14,17 @@
               <img :src="entry.image" :alt="entry.title"/>
             </div>
             <div class="entry-content">
-              
+              <div class="entry-sub">
+                <h6 class="subtitle">Week {{entry.week}}</h6>
+              </div>
               <h3>
               {{entry.title}}
               </h3>
+              <p>{{entry.subtitle}}</p>
               <div class="entry-sub">
-                <h6 class="subtitle">{{entry.date}}</h6>
-                <h6 class="subtitle">Week {{entry.week}}</h6>
+                <p class="entry-date">{{entry.date}}</p>
               </div>
-              <p>{{entry.description}}</p>
+              
             </div>
           </div>
         </div>
@@ -91,11 +93,11 @@ export default {
 img {
   display: block;
   margin: 0 auto;
-  height: 300px;
+  height: 250px;
   // max-height: 300px;
 }
 .img-wrapper {
-  max-width: 200px;
+  max-width: 175px;
   height: auto;
   overflow: hidden;
 }
@@ -110,15 +112,17 @@ h3 {
   line-height: 2rem;
 }
 .subtitle {
-  color: $blue-dark-alt;
+  color: $text-dark;
   font-size: .85rem;
   font-weight: 900;
-  padding: 8px 15px 5px;
+  padding: 5px 10px 3px;
   border-radius: 3px;
-  background: $blue-dark-3;
+  letter-spacing: 2px;
+  background: $blue-dark;
   border: 1px solid $blue-dark-2;
   margin: 5px 10px 10px 0;
-  font-weight: normal;
+  font-weight: 900;
+  border-radius: 20px;
   text-transform: uppercase;
 }
 
@@ -183,25 +187,30 @@ p {
     transition: $transition-fastest;
     color: $text-light;
   } &:hover .subtitle {
-    color: $blue-light-2;
+    // color: $blue-light-2;
   }
 }
 .entry-content {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0 40px 0 30px;
+  padding: 10px 0;
   & h3 {
-    margin: 20px 0 10px;
+    margin: 10px 0;
   }
   & p {
-    margin: 0 0 20px;
+    margin: 0 0 15px;
   }
   & .entry-sub {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+  }
+  & .entry-date {
+    color: $blue-dark;
+    font-size: .875rem;
   }
 }
 .back-link {

@@ -28,7 +28,6 @@ body {
   margin: 0;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0;
@@ -42,7 +41,8 @@ table,
 ul,
 ol,
 li {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
+  // font-family: "Lato", sans-serif;
 }
 h1 {
   font-weight: 900;
@@ -61,6 +61,7 @@ h3 {
   font-size: 1.35rem;
   line-height: 1.75rem;
   font-weight: 600;
+      font-family: "Merriweather";
   margin-top: 40px;
 }
 h4 {
@@ -72,8 +73,8 @@ h4 {
   margin-bottom: 10px;
 }
 h5 {
-  font-size: 1.1rem;
   font-weight: 400;
+  font-family: "Merriweather";
   margin-bottom: 10px;
 }
 h6 {
@@ -113,9 +114,21 @@ ol {
   font-weight: 400;
   line-height: 1.25rem;
 }
-li {
-  padding-bottom: 15px;
+ul {
+  list-style: none;
 }
+li {
+  padding-bottom: 10px;
+  
+}
+li::before {
+  content: "\2022";
+  color: $blue-dark-1;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  }
 .page {
   display: flex;
   flex-direction: column;

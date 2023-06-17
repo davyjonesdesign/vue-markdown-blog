@@ -1,6 +1,8 @@
-#### Week 1
+##### Week 1
 
-# Enhancing Biblical Study: A Modern Research Tool for Exploring Scripture
+# Enhancing Biblical Study
+
+## A Modern Research Tool for Exploring Scripture
 
 ##### Published June 8, 2023 by Davy Jones
 
@@ -9,11 +11,11 @@
   <figcaption align = "center" class="caption">Jerusalem - Temple Mount / Al-Aqsa Mosque</figcaption>
 </figure>
 
-## Introduction
+### Introduction
 
 Drawing upon my year-long immersive experience studying the archaeology, history, and physical settings of Israel, I gained a profound understanding of the immense value that contextual knowledge holds in the study of scripture. It became evident that Western readers often overlook critical context that could significantly enrich their interpretations of the Bible. Fueled by this realization, I embarked on a project with the aim of bridging this gap by providing comprehensive and accessible information. In this post, I will discuss the project brief and explore the potential of this modern research tool.
 
-## Enriching Biblical Study
+### Enriching Biblical Study
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Banias_-_Temple_of_Pan_001.jpg/800px-Banias_-_Temple_of_Pan_001.jpg" alt="Temple of Pan" style="width:100%">
@@ -23,11 +25,11 @@ Drawing upon my year-long immersive experience studying the archaeology, history
 Understanding the significance of locations, historical events, and cultural beliefs can illuminate the meaning behind biblical passages. For instance, take Matthew 16:13-20, where Jesus asks his disciples about his identity. Knowing that this conversation took place in Caesarea Philippi, a Gentile territory, allows us to grasp the universal nature of Jesus' mission. The mention of "the gates of Hades" gains significance when we learn about the local belief in a nearby cave as an entrance to the underworld. By providing this kind of contextual knowledge, the research tool aims to deepen our understanding of the Bible's message.
 
 
-## Project Evolution
+### Project Evolution
 
 Through valuable feedback, I realized that my initial approach was limited. Instead of acting as a content gatekeeper, I aim to enrich people's study of scripture by presenting unbiased information. By aggregating "facts on the ground" and offering various interpretations, I hope to empower users to explore scripture for themselves. This shift in focus allows for a broader range of perspectives and prevents bias from seeping into the project.
 
-## Introducing the Research Tool
+### Introducing the Research Tool
 
 <figure>
   <img src="https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk1/wis-1_splash.png" alt="Written in Stone Splash Image" style="width:100%">
@@ -47,7 +49,7 @@ The core of the project is a location mapping app that grants users access to ar
 9. **Bookmark Selections** — Save preferred locations for future reference;
 10. **Save Comments Within** — Add personal notes and reflections to enhance research;
 
-## Keywords
+### Keywords
 
 I selected several keywords to encapsulate the essence of this tool. These include:
 
@@ -64,13 +66,13 @@ I selected several keywords to encapsulate the essence of this tool. These inclu
 
 Each term contributes to shaping the desired product.
 
-## Research and Inspiration
+### Research and Inspiration
 
 Leveraging my personal experiences and in-depth study in Israel, I have acquired a solid foundation for this project. Additionally, I conducted some market research and analysis of similar apps and websites. Through my exploration of web mapping technology and API databases, I have identified Leaflet within the Vue framework as a viable option for integrating interactive maps into the research tool.
 
 Gaining user feedback constitutes a pivotal aspect of the research, and I am eagerly looking forward to incorporating user insights into the existing assets. Additionally, further exploration of web technologies, particularly the scalability of Leaflet and Vue, will ensure the continued viability of the project.
 
-## Drawing Inspiration
+### Drawing Inspiration
 
 <figure>
   <img src="https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk1/urban-archive.png" alt="Urban Archive Screenshot" style="width:100%">
@@ -93,7 +95,7 @@ In a recent project, I had the opportunity to design a video content streaming a
   <figcaption class="caption">Streamline Video Streaming Platform</figcaption>
 </figure>
 
-## Leveraging Prior Assets
+### Leveraging Prior Assets
 
 <figure>
   <img src="https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk1/assets.png" alt="Prior Assets">
@@ -102,11 +104,11 @@ In a recent project, I had the opportunity to design a video content streaming a
 
 Building upon previous work, several assets are available for revision based on user feedback. These include branding and typography, user flow and journey, design system, a desktop prototype, and a simple Vue app utilizing the Leaflet library. The goal is to expand these assets by the end of the semester, incorporating suggestions and enhancements from user testing.
 
-## Partnerships and Target Audience
+### Partnerships and Target Audience
 
 To enrich the project's scope and ensure its relevance, partnerships with organizations and individuals are sought. Potential partners include the local church, academic institutions specializing in the study of the ancient Middle East, and knowledgeable professionals in Old Testament studies. The app caters to biblical professors, students, church leaders, tourists, and researchers, providing valuable resources for their studies and explorations.
 
-## Project Roadmap
+### Project Roadmap
 
 <figure>
   <img src="https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk1/poc.png" alt="Proof of Concept Vue App">
@@ -115,7 +117,7 @@ To enrich the project's scope and ensure its relevance, partnerships with organi
 
 The proposed components for the project include a brand book with revised branding and typography, a refined design system, an updated desktop prototype (with mobile optimization), and an expanded proof of concept (POC). The POC aims to showcase a detailed view, as well as filter and search capabilities, to enhance the user's research experience.
 
-## Conclusion
+### Conclusion
 
 Based on the valuable feedback received thus far, the project is poised for further development. A comprehensive project proposal will be formulated, and potential users and partners will be approached for additional input. With a commitment to providing an immersive and enlightening study experience, the research tool has the potential to revolutionize how scripture is understood and interpreted. Stay tuned for further updates as this exciting project progresses.
 
@@ -128,7 +130,7 @@ Based on the valuable feedback received thus far, the project is poised for furt
 Project Brief Presentation Deck (click to advance slides)
 </p>
 
-### Useful Links
+#### Useful Links
 
 + [My Project Brief (Figma)](https://www.figma.com/proto/9UNhKPJ3i2HINWU4VveiME/Captsone-'23?type=design&node-id=1-2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2)
 + [My Research Archive](https://docs.google.com/document/d/1RfCwyeN3hs05BPPx6-4XxTa1fAfDtXdN5jTv0Kq6ApA/edit?usp=sharing)

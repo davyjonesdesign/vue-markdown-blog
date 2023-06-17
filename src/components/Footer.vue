@@ -1,7 +1,7 @@
 <template>
     <div class="footwrap">
-        <a href="http://davyjones.me/">Davy Jones Design</a>
-        <p>© 2023, davyjones.me</p>
+        <a href="http://davyjones.me/">davyjones.me</a>
+        <p>© 2023. All Rights Reserved.</p>
     </div>
 </template>
 
@@ -22,7 +22,7 @@
         margin: 0;
         text-align: center;
         height: 10px;
-        color: $blue-light-2;
+        color: $blue-light-3;
     } & a {
         padding-top: 3px;
         text-decoration: underline;
