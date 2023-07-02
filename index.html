@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link rel=icon href=/favicon.ico>
+    <title>Davy Jones' Locker | A web designer's blog</title>
+    <script>
+        (function (l) {
+            if (l.search[1] === "/") {
+            var decoded = l.search
+                .slice(1)
+                .split("&")
+                .map(function (s) {
+                return s.replace(/~and~/g, "&");
+                })
+                .join("?");
+            window.history.replaceState(
+                null,
+                null,
+                l.pathname.slice(0, -1) + decoded + l.hash
+            );
+            }
+        })(window.location);
+    </script>
+    <link href=/css/chunk-792c6e92.3a8372a1.css rel=prefetch>
+    <link href=/js/chunk-2d0af65f.52ba3263.js rel=prefetch>
+    <link href=/js/chunk-2d0b3dcd.bd551e85.js rel=prefetch>
+    <link href=/js/chunk-2d0bd5b7.bfdc5aeb.js rel=prefetch>
+    <link href=/js/chunk-2d0ccf5c.1f27beda.js rel=prefetch>
+    <link href=/js/chunk-2d0da040.16b7589a.js rel=prefetch>
+    <link href=/js/chunk-792c6e92.76f8f63e.js rel=prefetch>
+    <link href=/css/app.038c2aee.css rel=preload as=style>
+    <link href=/js/app.c8444789.js rel=preload as=script>
+    <link href=/js/chunk-vendors.f3e6f898.js rel=preload as=script>
+    <link href=/css/app.038c2aee.css rel=stylesheet>
+</head>
+
+<body><noscript><strong>We're sorry but blog-markdown doesn't work properly without JavaScript enabled. Please enable it
+            to continue.</strong></noscript>
+    <div id=app></div>
+    <script src=/js/chunk-vendors.f3e6f898.js></script>
+    <script src=/js/app.c8444789.js></script>
+</body>
+
+</html>
