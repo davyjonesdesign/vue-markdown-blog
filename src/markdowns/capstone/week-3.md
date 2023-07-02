@@ -40,7 +40,8 @@ In addition, gathering real data for at least one marker entry is essential for 
 The overview statement has been revised since last week. While initially focused on combating spiritual abuse, I recognized that it shouldn't be the primary objective as the project doesn't directly address it. Instead, the emphasis has shifted towards enriching biblical understanding. By making biblical backgrounds and knowledge accessible to everyone, the project aims to contribute to a more informed approach to scripture interpretation. While preventing spiritual abuse may be a byproduct, the main goal remains enhancing biblical understanding for individuals.
 
 ### User/Target Audience Feedback
-During the interview with Pastor Kevin, a local with 30 years of teaching experience, valuable insights were gathered:
+
+During the interview with Pastor Kevin, a local with 40 years of teaching experience, valuable insights were gathered:
 
 + **Information Search:** Pastor Kevin relies on Google searches and uses Wikipedia as a starting point to identify credible sources for further research.
 + **Filtering by Timelines:** Pastor Kevin expressed great interest in the ability to filter information by different historical periods, particularly on the details page. He suggested a dropdown or multiselect option to select and display data from different periods, with the selected information labeled and appended to each section in chronological order.
