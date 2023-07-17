@@ -1,6 +1,14 @@
 {
   "capstone": [
     {
+      "id": "week-6",
+      "date": "July 8, 2023",
+      "title": "Capturing Feedback", 
+      "subtitle": "Synthesizing Feedback + Planning Final Iterations",
+      "image": "https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk6/wis-teaser-pass3.gif",
+      "week": "6"
+    },
+    {
       "id": "week-5",
       "date": "July 8, 2023",
       "title": "Teaser + Capstone Site",

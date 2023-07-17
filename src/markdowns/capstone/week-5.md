@@ -6,11 +6,6 @@
 
 ##### Published July 8, 2023 by Davy Jones
 
-<figure>
-  <img src="https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk5/wis-teaser-pass2.gif" alt="Marketing Teaser Video" style="width:100%">
-  <figcaption align = "center" class="caption">Updated Component — Marketing Teaser Video</figcaption>
-</figure>
-
 ### Overview
 
 As I press forward, I'm grateful for the significant strides made in enhancing the app. Let's take a closer look at the updates for this week:
@@ -39,7 +34,7 @@ I'm truly grateful for the valuable feedback received from Pastor Kevin, which h
 </div>
 <p align = "center" class="caption">Capstone Site Figma Prototype</p>
 
-I've made time in my schedule to focus on the development of my capstone project page. This week, I dedicated some time to designing the site using Figma and set up a [basic Vue website](https://davyjonesdesign.github.io/mcad-capstone-website/) with minimal styling, content, and functionality. Moving forward, my efforts will be centered on adding more style, content, and functionality to align with the designs created in Figma.
+I've made time in my schedule to focus on the development of my capstone project page. This week, I dedicated some time to designing the site using Figma and set up a [basic Vue website](https://capstone.davyjones.me/) with minimal styling, content, and functionality. Moving forward, my efforts will be centered on adding more style, content, and functionality to align with the designs created in Figma.
 
 ### Concluding Thoughts
 
@@ -51,4 +46,4 @@ I'm sincerely grateful for your support and encouragement as I embark on this ex
 
 + [My Prototype Proposal](https://www.figma.com/proto/9UNhKPJ3i2HINWU4VveiME/Captsone-'23?type=design&node-id=325-7764&scaling=scale-down-width&page-id=325%3A7763)
 + [My Research Archive](https://docs.google.com/document/d/1RfCwyeN3hs05BPPx6-4XxTa1fAfDtXdN5jTv0Kq6ApA/edit?usp=sharing)
-+ [My Capstone Project Site](https://davyjonesdesign.github.io/mcad-capstone-website/)
++ [My Capstone Project Site](https://capstone.davyjones.me/)

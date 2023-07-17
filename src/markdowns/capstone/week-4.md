@@ -36,7 +36,7 @@ Marketing Teaser Ad: During our weekly meeting, a suggestion was made to create 
 
 The feedback integration process continues to play a crucial role in refining the project. This week, in addition to Pastor Kevin's valuable insights, I reached out to a collegiate audience to gather their perspectives:
 
-**Pastor Kevin (Cleric Audience):** Pastor Kevin, with his extensive 40 years of teaching experience, provided valuable insights into the project. He emphasized the significance of accurate information, citation, and resources within the app. Taking his suggestions into account, the project team is actively integrating these aspects into the app's design to enhance its credibility and reliability.
+**Pastor Kevin (Cleric Audience):** Pastor Kevin, with his extensive 40 years of teaching experience, provided valuable insights into the project. He emphasized the significance of accurate information, citation, and resources within the app. Taking his suggestions into account, I am actively integrating these aspects into the app's design to enhance its credibility and reliability.
 
 **Collegiate Audience:** Engaging with the collegiate audience will provide a fresh perspective and valuable input. I’m hoping their feedback will spark ideas for future iterations and improvements, shaping the project's direction and aligning it with the needs and expectations of this target group.
 
