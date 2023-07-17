@@ -82,12 +82,12 @@ Upon reflection, I realize that I may have rushed in implementing Kevin's feedba
 
 ### Capstone Project Page Updates
 
-Progress continues on my Capstone page at [capstone.davyjones.me](https://capstone.davyjones.me/). I have set up the website's functionality and will now focus on adding content and styling to match the Figma designs. Here's a glimpse of the current state of the website:
-
 <figure>
-  <img src="https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk2/poc.jpg" alt="Prototype Screen Capture" style="width:100%">
+  <img src="https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk6/capstone-page-walkthrough.gif" alt="Prototype Screen Capture" style="width:100%">
   <figcaption align = "center" class="caption">Prototype from Week 2, shown to Kevin during the interview.</figcaption>
 </figure>
+
+Progress continues on my Capstone page at [capstone.davyjones.me](https://capstone.davyjones.me/). I have set up the website's functionality and will now focus on adding content and styling to match the Figma designs.
 
 ### Concluding Thoughts
 
