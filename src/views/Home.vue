@@ -15,7 +15,8 @@
             </div>
             <div class="entry-content">
               <div class="entry-sub">
-                <h6 class="subtitle">Week {{entry.week}}</h6>
+                <h6 v-if="entry.week" class="subtitle">Week {{entry.week}}</h6>
+                <h6 v-if="entry.type" class="subtitle">{{entry.type}}</h6>
               </div>
               <h3>
               {{entry.title}}
@@ -68,8 +69,8 @@ export default {
   align-items: center;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/davy-jones-locker.jpg');
   background-size: cover;
-  background: $text-dark;
-  color: $text-light;
+  background: $egg;
+  color: $charcoal;
   position: sticky;
   top: 0;
   & h1 {
@@ -82,7 +83,7 @@ export default {
     margin: auto;
   } & .locker {
     font-family: "Merriweather";
-    color: $blue-light;
+    color: $burn;
     font-size: 6rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -100,28 +101,30 @@ img {
   max-width: 175px;
   height: auto;
   overflow: hidden;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h3 {
   font-family: "Merriweather";
-  color: $blue-light;
+  color: $burn;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 2rem;
 }
 .subtitle {
-  color: $text-dark;
+  color: $charcoal;
   font-size: .85rem;
-  font-weight: 900;
   padding: 5px 10px 3px;
   border-radius: 3px;
   letter-spacing: 2px;
-  background: $blue-dark;
-  border: 1px solid $blue-dark-2;
-  margin: 5px 10px 10px 0;
-  font-weight: 900;
+  background: $egg;
+  border: 1px solid $charcoal;
+  margin: 5px 10px 5px 0;
+  font-weight: 600;
   border-radius: 20px;
   text-transform: uppercase;
 }
@@ -135,8 +138,8 @@ p {
   width: 100%;
   margin: 0 auto;
   // padding-top: 4rem;
-  background: $blue-dark-3;
-  border-top: 1px solid $blue-dark;
+  background: $tan;
+  border-top: 1px solid $charcoal;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -151,7 +154,7 @@ p {
   align-content: center;
   & h5 {
     display: inline-block;
-    color: $blue-dark;
+    color: $charcoal;
     padding: 14px 6px 12px;
     position: sticky;
     top: 0;
@@ -159,13 +162,13 @@ p {
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 1rem;
-    background: $blue-dark-3;
+    background: $tan;
     min-width: 200px;
     margin: 30px 0 1px;
   }
 }
 .entry {
-  background: $text-dark;
+  background: $egg;
   max-width: 60vw;
   border-radius: 0;
   margin: 0 0 10px;
@@ -173,21 +176,21 @@ p {
   overflow: hidden;
   // height: 250px;
   display: flex;
-  border: 1px solid $blue-dark;
+  border: 1px solid $charcoal;
   cursor: pointer;
   &:hover {
     transform: translate(-4px, -2px);
     transition: $transition-fastest;
-    // box-shadow: 4px 5px 2px $text-dark;
-    background: $text-dark;
-    border-color: $blue-light;
+    box-shadow: 4px 5px 2px $charcoal;
+    background: $tan;
+    border-color: $charcoal;
     border-radius: $border-radius;
   } &:hover h3 {
     text-decoration: underline;
     transition: $transition-fastest;
-    color: $text-light;
+    // color: $charcoal;
   } &:hover .subtitle {
-    // color: $blue-light-2;
+    // color: $burn;
   }
 }
 .entry-content {
@@ -209,7 +212,7 @@ p {
     justify-content: flex-start;
   }
   & .entry-date {
-    color: $blue-dark;
+    color: $charcoal;
     font-size: .875rem;
   }
 }

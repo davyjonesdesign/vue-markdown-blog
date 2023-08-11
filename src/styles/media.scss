@@ -47,10 +47,10 @@
         padding: 0;
         border-right: none;
         border-top: none;
-        border-bottom: 1px solid $blue-dark;
+        border-bottom: 1px solid $charcoal;
         min-width: 100%;
         margin: 0;
-        box-shadow: -3px 0 2px $text-dark;
+        box-shadow: -3px 0 2px $tan;
         & svg {
             margin: 0 0 0 5vw;
             max-width: 18px;
@@ -66,17 +66,18 @@
         }
     }
     .logo:hover {
-        border-color: $blue-light;
-        background: $text-dark;
+        border-color: $charcoal;
+        color: $charcoal;
+        background: $egg;
         text-decoration: underline;
         & svg {
-          fill: $text-light;
+          fill: $charcoal;
           transition: $transition-faster;
           transform: rotate(360deg);
         }
         & .logo-text {
           transition: $transition-faster;
-          color: $text-light;
+          color: $charcoal;
         }
     }
     .back-link {
@@ -110,7 +111,7 @@
         }
     }
     .footwrap {
-        margin: 0 0 50px 0;
+        margin: 0 0 0 0;
         width: calc(100% - 40px);
     }
 }

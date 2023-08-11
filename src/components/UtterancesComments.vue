@@ -9,7 +9,7 @@ export default {
         script.src = 'https://utteranc.es/client.js';
         script.setAttribute('repo', 'davyjonesdesign/vue-markdown-blog');
         script.setAttribute('issue-term', 'pathname');
-        script.setAttribute('theme', 'dark-blue');
+        script.setAttribute('theme', 'boxy-light');
         script.setAttribute('crossorigin', 'anonymous');
         script.async = true;
 

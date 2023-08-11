@@ -16,20 +16,20 @@
     width: calc(100% - 80px);
     height: 30px;
     padding: 7px 20px 5px;
-    border-top: 1px solid $blue-dark;
-    background: $blue-dark-3;
+    border-top: 1px solid $charcoal;
+    background: $egg;
     & p {
         margin: 0;
         text-align: center;
         height: 10px;
-        color: $blue-light-3;
+        color: $charcoal;
     } & a {
         padding-top: 3px;
         text-decoration: underline;
         font-weight: 500;
-        color: $blue-light;
+        color: $burn;
     } & a:hover {
-            color: $blue-light-2;
+            color: $burn;
         }
 }
 @import '@/styles/media.scss';

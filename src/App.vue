@@ -22,7 +22,7 @@ export default {
 @import '@/styles/main.scss';
 html {
   margin: 0;
-  background: $blue-dark-3;
+  background: $egg;
 }
 body {
   margin: 0;
@@ -33,7 +33,7 @@ body {
   letter-spacing: 0;
   font-family: "Raleway", sans-serif;
   max-width: 100vw;
-  color: $text-light;
+  color: $charcoal;
   margin: 0 auto;
 }
 p,
@@ -89,7 +89,7 @@ p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: $blue-light-3;
+  color: $charcoal;
   max-width: 600px;
 }
 a {
@@ -97,8 +97,8 @@ a {
   font-weight: 600;
   letter-spacing: 0.25px;
   font-family: "Lato", sans-serif;
-  text-decoration: none;
-  color: $blue-light;
+  // text-decoration: none;
+  color: $burn;
 }
 a:hover {
   text-decoration: underline;
@@ -115,7 +115,7 @@ ol {
   line-height: 1.25rem;
 }
 ul {
-  list-style: none;
+  list-style: disc;
 }
 li {
   padding-bottom: 10px;
@@ -123,7 +123,7 @@ li {
 }
 li::before {
   content: "\2022";
-  color: $blue-dark-1;
+  color: $egg;
   font-weight: bold;
   display: inline-block;
   width: 1em;

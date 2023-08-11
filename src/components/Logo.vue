@@ -43,7 +43,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background: $text-dark;
+  background: $tan;
   height: 100vh;
 }
 .logo {
@@ -56,12 +56,12 @@
   z-index: 10000;
   height: 100%;
   width: 45px;
-  border-right: 1px solid $blue-dark;
+  border-right: 1px solid $charcoal;
   text-decoration: none;
   transition: $transition;
   z-index: 1000;
   & svg {
-    fill: $blue-light-2;
+    fill: $charcoal;
     width: 24px;
     transition: $transition;
     padding: 0 10px;
@@ -72,16 +72,16 @@
     left: 54px;
     z-index: 1;
     transition: $transition;
-    color: $blue-light-2;
+    color: $charcoal;
     margin: 0;
     font-weight: 600;
   }
 }
 .logo:hover {
-  border-color: $blue-light;
-  background: $text-dark;
+  border-color: $charcoal;
+  background: $egg;
   & svg {
-    fill: $text-light;
+    fill: $charcoal;
     transition: $transition-faster;
     transform: rotate(360deg);
   }
@@ -89,7 +89,8 @@
     visibility: visible;
     opacity: 1;
     transition: $transition;
-    color: $text-light;
+    color: $charcoal;
+    text-decoration: underline;
   }
 }
 @import '@/styles/backBtn.scss';

@@ -1,11 +1,27 @@
 {
   "capstone": [
     {
+      "id": "week-11",
+      "date": "August 10, 2023",
+      "title": "Final Reflection", 
+      "subtitle": "Looking Back + Looking Forward",
+      "image": "https://capstone.davyjones.me/img/me-jordan.3120c17b.png",
+      "type": "reflection"
+    },
+    {
+      "id": "week-7-10",
+      "date": "August 9, 2023",
+      "title": "Final Weeks", 
+      "subtitle": "Wrapping Up + Presentation Prep",
+      "image": "https://capstone.davyjones.me/img/jones_davy_writtenInStone.318c923b.png",
+      "week": "7-10"
+    },
+    {
       "id": "week-6",
       "date": "July 8, 2023",
       "title": "Capturing Feedback", 
       "subtitle": "Synthesizing Feedback + Planning Final Iterations",
-      "image": "https://davyjonesdesign.github.io/data-for-axios/assets/capstone/progress-wk6/wis-teaser-pass3.gif",
+      "image": "https://capstone.davyjones.me/img/wis-mac-mockup.f44065ac.png",
       "week": "6"
     },
     {

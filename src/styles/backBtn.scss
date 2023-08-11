@@ -2,7 +2,7 @@
     margin: 0 0 4px;
     display: flex;
     align-items: center;
-    color: $blue-light;
+    color: $charcoal;
     transition: $transition;
     background: none;
     border: none;
@@ -14,14 +14,14 @@
     letter-spacing: 1px;
     text-decoration: underline;
     font-size: 1.25rem;
-    border: 1px solid $blue-dark-2;
-    background: $blue-dark-3;
+    border: 1px solid $charcoal;
+    background: $egg;
     position: fixed;
     top: 5px;
     right: 2vw;
   }
   .back-link svg {
-    fill: $blue-light;
+    fill: $charcoal;
     transform: rotate(-90deg);
     width: 18px;
     transition: $transition;
@@ -31,15 +31,14 @@
   .back-link:hover {
     transform: translate(-3px, -1px);
     transition: $transition-fastest;
-    background: $text-dark;
-    color: $text-light;
+    background: $tan;
+    color: $charcoal;
     cursor: pointer;
-    box-shadow: 3px 1px 1px $text-dark;
+    box-shadow: 3px 1px 1px $charcoal;
     border-radius: 10px;
-    border-color: $blue-light;
     text-decoration: underline;
     & svg {
-      fill: $text-light;
+      fill: $charcoal;
       transform: translate(-3px, 0) rotate(-90deg) scale(1.05);
       transition: $transition-fastest;
     }
